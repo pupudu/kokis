@@ -13,12 +13,10 @@
     "rimraf": "^2.6.2",
     "ts-node": "^8.10.2",
     "tsconfig-paths": "^3.9.0",
-    "typescript": "^3.9.3",
-    "semantic-release": "^17.0.8"
+    "typescript": "^3.9.3"
   },
   "scripts": {
-    "changelog": "lerna-changelog",
-    "semantic-release": "semantic-release"
+    "changelog": "lerna-changelog"
   },
   "lint-staged": {
     "packages/**/*.{ts,js,tsx}": [

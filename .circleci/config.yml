@@ -5,9 +5,5 @@ jobs:
       - image: 'circleci/node:latest'
     steps:
       - checkout
-      - run:
-          name: install
-          command: npm install
-      - run:
-          name: release
-          command: npm run semantic-release || true
+      - run: yarn
+      - run: lerna exec --concurrency 1 -- npx --no-install semantic-release -e semantic-release-monorepo
