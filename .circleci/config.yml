@@ -10,6 +10,7 @@ jobs:
       - run: yarn changelog
 
 workflows:
+  version: 2
   main:
     jobs:
       - publish:
