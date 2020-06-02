@@ -6,4 +6,4 @@ jobs:
     steps:
       - checkout
       - run: yarn
-      - run: lerna exec --concurrency 1 -- npx --no-install semantic-release -e semantic-release-monorepo
+      - run: yarn release

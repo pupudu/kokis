@@ -16,7 +16,8 @@
     "typescript": "^3.9.3"
   },
   "scripts": {
-    "changelog": "lerna-changelog"
+    "changelog": "lerna-changelog",
+    "release": "lerna exec --concurrency 1 -- npx --no-install semantic-release -e semantic-release-monorepo"
   },
   "lint-staged": {
     "packages/**/*.{ts,js,tsx}": [
