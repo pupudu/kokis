@@ -16,7 +16,7 @@
   },
   "scripts": {
     "changelog": "lerna-changelog",
-    "release": "lerna exec --concurrency 1 semantic-release"
+    "release": "lerna exec --concurrency 1 -- npx --no-install semantic-release -e semantic-release-monorepo"
   },
   "lint-staged": {
     "packages/**/*.{ts,js,tsx}": [
