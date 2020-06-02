@@ -1,5 +1,4 @@
 {
-  "name": "kokis-monorepo",
   "private": true,
   "workspaces": [
     "packages/*"
