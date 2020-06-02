@@ -1,6 +1,6 @@
 {
   "name": "@kokis/health",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Health module for kokis",
   "keywords": [
     "nodejs",
