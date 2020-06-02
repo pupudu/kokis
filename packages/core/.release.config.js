@@ -8,4 +8,5 @@ module.exports = {
       "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
     }]
   ],
+  "tagFormat": "${LERNA_PACKAGE_NAME}-v\\${version}"
 }
