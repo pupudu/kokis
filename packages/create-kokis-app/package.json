@@ -1,6 +1,6 @@
 {
   "name": "create-kokis-app",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "Create kokis app starter with a single command",
   "repository": {
     "type": "git",
