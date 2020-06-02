@@ -14,7 +14,7 @@ jobs:
             git remote set-url origin https://pupudu:${GH_TOKEN}@github.com/pupudu/kokis.git
             git config user.email pubudu.dodan@gmail.com
             git config user.name "Pubudu Dodangoda GH"
-            git add package.json && git commit -m "chore: add release assets from CI 🏠 [skip ci]"
+            git add packages/**/package.json && git commit -m "chore: add release assets from CI 🏠 [skip ci]"
             git push
 
 workflows:
