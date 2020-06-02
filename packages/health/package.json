@@ -1,0 +1,38 @@
+{
+  "name": "@kokis/health",
+  "version": "0.0.1",
+  "description": "Health module for kokis",
+  "keywords": [
+    "nodejs",
+    "api",
+    "health",
+    "kubernetes",
+    "terminus"
+  ],
+  "directories": {
+    "src": "src"
+  },
+  "files": [
+    "src",
+    "dist",
+    "index.d.ts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pupudu/kokis.git"
+  },
+  "author": "Pubudu Dodangoda <pubudu.dodan@gmail.com>",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint 'src/**/*.ts' --fix",
+    "build": "rm -rf dist && tsc -p tsconfig.build.json",
+    "prepublishOnly": "yarn build"
+  },
+  "peerDependencies": {},
+  "dependencies": {},
+  "devDependencies": {
+    "@godaddy/terminus": "^4.4.1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "create-kokis-app",
+  "version": "0.0.1",
+  "description": "Create kokis app starter with a single command",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pupudu/kokis.git"
+  },
+  "author": "Pubudu Dodangoda <pubudu.dodan@gmail.com>",
+  "license": "ISC",
+  "directories": {
+    "src": "src"
+  },
+  "files": [
+    "src",
+    "dist",
+    "index.d.ts"
+  ],
+  "main": "dist/index.js"
+}

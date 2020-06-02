@@ -1,0 +1,49 @@
+{
+  "name": "@kokis/core",
+  "version": "0.0.1",
+  "description": "Dead simple framework for building delicious NodeJs apps. Have a bite!",
+  "keywords": [
+    "nodejs",
+    "api",
+    "express",
+    "kubernetes",
+    "react"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pupudu/kokis.git"
+  },
+  "author": "Pubudu Dodangoda <pubudu.dodan@gmail.com>",
+  "license": "ISC",
+  "directories": {
+    "src": "src"
+  },
+  "files": [
+    "src",
+    "dist",
+    "index.d.ts"
+  ],
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint 'src/**/*.ts' --fix",
+    "build": "rm -rf dist && tsc -p tsconfig.build.json",
+    "prepublishOnly": "yarn build"
+  },
+  "peerDependencies": {},
+  "dependencies": {
+    "@godaddy/terminus": "^4.4.1",
+    "@overnightjs/core": "^1.7.4",
+    "@types/socket.io": "^2.1.8",
+    "axios": "^0.19.2",
+    "bunyan": "^1.8.12",
+    "dayjs": "^1.8.28",
+    "dayjs-plugin-utc": "^0.1.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "http-status-codes": "^1.4.0",
+    "reflect-metadata": "^0.1.13",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {}
+}
