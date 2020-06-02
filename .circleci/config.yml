@@ -1,9 +1,17 @@
 version: 2
 jobs:
-  build:
+  publish:
     docker:
       - image: 'circleci/node:latest'
     steps:
       - checkout
       - run: yarn
       - run: yarn release
+      - run: yarn changelog
+
+workflows:
+  version: 2
+  main:
+    jobs:
+      - publish:
+          context: kokis
