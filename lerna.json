@@ -14,5 +14,11 @@
       "underlying tools": ":hammer: Underlying Tools"
     },
     "cacheDir": ".changelog"
+  },
+  "command": {
+    "publish": {
+      "conventionalCommits": true,
+      "create-release": "github"
+    }
   }
 }

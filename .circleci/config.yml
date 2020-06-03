@@ -6,16 +6,7 @@ jobs:
     steps:
       - checkout
       - run: yarn
-      - run: yarn release
-      - run: yarn changelog
-      - run:
-          name: 'commit release assets'
-          command: |
-            git remote set-url origin https://pupudu:${GH_TOKEN}@github.com/pupudu/kokis.git
-            git config user.email pubudu.dodan@gmail.com
-            git config user.name "Pubudu Dodangoda GH"
-            git add packages/**/package.json && git commit -m "chore: add release assets from CI 🏠 [skip ci]"
-            git push
+      - run: GH_TOKEN=${GH_TOKEN} yarn lerna:publish
 
 workflows:
   version: 2
