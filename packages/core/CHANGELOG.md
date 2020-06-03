@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.2](https://github.com/pupudu/kokis/compare/@kokis/core@1.2.1...@kokis/core@1.2.2) (2020-06-03)
+
+
+### Performance Improvements
+
+* Fake perf commit ([3be5678](https://github.com/pupudu/kokis/commit/3be5678be5c93db50733dcda8730c2cac7a8a513))
+
+
+
+
+
 ## [1.2.1](https://github.com/pupudu/kokis/compare/@kokis/core@1.2.0...@kokis/core@1.2.1) (2020-06-03)
 
 

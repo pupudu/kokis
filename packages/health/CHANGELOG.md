@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.1](https://github.com/pupudu/kokis/compare/@kokis/health@1.2.0...@kokis/health@1.2.1) (2020-06-03)
+
+**Note:** Version bump only for package @kokis/health
+
+
+
+
+
 # [1.2.0](https://github.com/pupudu/kokis/compare/@kokis/health@1.1.0...@kokis/health@1.2.0) (2020-06-03)
 
 
