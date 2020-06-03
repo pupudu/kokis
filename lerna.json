@@ -18,7 +18,8 @@
   "command": {
     "publish": {
       "conventionalCommits": true,
-      "create-release": "github"
+      "create-release": "github",
+      "message": "build: publish to npm [ci skip]"
     }
   }
 }
