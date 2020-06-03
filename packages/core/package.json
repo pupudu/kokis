@@ -1,6 +1,6 @@
 {
   "name": "@kokis/core",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Dead simple framework for building delicious NodeJs apps. Have a bite!",
   "keywords": [
     "nodejs",
