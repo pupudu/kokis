@@ -1,6 +1,6 @@
 {
   "name": "@kokis/core",
-  "version": "1.1.3",
+  "version": "1.2.0",
   "description": "Dead simple framework for building delicious NodeJs apps. Have a bite!",
   "keywords": [
     "nodejs",
@@ -43,7 +43,5 @@
     "http-status-codes": "^1.4.0",
     "reflect-metadata": "^0.1.13",
     "socket.io": "^2.3.0"
-  },
-  "devDependencies": {
   }
 }
