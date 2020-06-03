@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.4](https://github.com/pupudu/kokis/compare/@kokis/health@1.2.3...@kokis/health@1.2.4) (2020-06-03)
+
+
+### Performance Improvements
+
+* fake perf ([461ceb4](https://github.com/pupudu/kokis/commit/461ceb42ef85fe850317915f1ac9e587d8e96f24))
+
+
+
+
+
 ## [1.2.3](https://github.com/pupudu/kokis/compare/@kokis/health@1.2.2...@kokis/health@1.2.3) (2020-06-03)
 
 
