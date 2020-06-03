@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/pupudu/kokis/compare/@kokis/health@1.1.0...@kokis/health@1.2.0) (2020-06-03)
+
+
+### Features
+
+* fake feat commit ([fa56c22](https://github.com/pupudu/kokis/commit/fa56c229fc414a2cc81d1fec48f29f654c9f9831))
+
+
+
+
+
 # 1.1.0 (2020-06-03)
 
 

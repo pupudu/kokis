@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.1](https://github.com/pupudu/kokis/compare/@kokis/core@1.2.0...@kokis/core@1.2.1) (2020-06-03)
+
+
+### Bug Fixes
+
+* Fake fix commit ([5cc1f80](https://github.com/pupudu/kokis/commit/5cc1f8061c6a952d0e911c3e0f58fd84c86eae8b))
+
+
+
+
+
 # 1.2.0 (2020-06-03)
 
 
