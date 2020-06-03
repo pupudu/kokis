@@ -14,10 +14,7 @@
     "tsconfig-paths": "^3.9.0",
     "typescript": "^3.9.3"
   },
-  "scripts": {
-    "changelog": "lerna-changelog",
-    "lerna:publish": "lerna publish"
-  },
+  "scripts": {},
   "lint-staged": {
     "packages/**/*.{ts,js,tsx}": [
       "lerna run lint"
