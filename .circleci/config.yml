@@ -5,6 +5,7 @@ jobs:
       - image: 'circleci/node:latest'
     steps:
       - checkout
+      - run: echo //registry.npmjs.org/:_authToken=${NPM_TOKEN} >> ~/.npmrc
       - run: yarn
       - run: GH_TOKEN=${GH_TOKEN} yarn lerna publish --yes
 
