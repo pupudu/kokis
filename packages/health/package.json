@@ -28,12 +28,9 @@
     "test": "jest",
     "lint": "eslint 'src/**/*.ts' --fix",
     "build": "rm -rf dist && tsc -p tsconfig.build.json",
-    "prepublishOnly": "yarn build",
-    "semantic-release": "semantic-release"
+    "prepublishOnly": "yarn build"
   },
   "devDependencies": {
-    "@godaddy/terminus": "^4.4.1",
-    "semantic-release": "^17.0.8",
-    "semantic-release-monorepo": "^7.0.2"
+    "@godaddy/terminus": "^4.4.1"
   }
 }
