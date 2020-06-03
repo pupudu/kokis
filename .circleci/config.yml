@@ -6,7 +6,7 @@ jobs:
     steps:
       - checkout
       - run: yarn
-      - run: GH_TOKEN=${GH_TOKEN} yarn lerna:publish
+      - run: GH_TOKEN=${GH_TOKEN} yarn lerna:publish --yes
 
 workflows:
   version: 2
