@@ -34,7 +34,7 @@
     "@godaddy/terminus": "^4.4.1",
     "@overnightjs/core": "^1.7.4",
     "@types/socket.io": "^2.1.8",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bunyan": "^1.8.12",
     "dayjs": "^1.8.28",
     "dayjs-plugin-utc": "^0.1.2",
