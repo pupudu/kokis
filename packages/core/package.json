@@ -1,6 +1,6 @@
 {
   "name": "@kokis/core",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "Dead simple framework for building delicious NodeJs apps. Have a bite!",
   "keywords": [
     "nodejs",
@@ -34,7 +34,7 @@
     "@godaddy/terminus": "^4.4.1",
     "@overnightjs/core": "^1.7.4",
     "@types/socket.io": "^2.1.8",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bunyan": "^1.8.12",
     "dayjs": "^1.8.28",
     "dayjs-plugin-utc": "^0.1.2",
